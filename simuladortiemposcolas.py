@@ -4,7 +4,10 @@
 # =========================================
 import os, time, sqlite3
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")    # backend sin GUI
 import matplotlib.pyplot as plt
+
 import streamlit as st
 from datetime import date
 
